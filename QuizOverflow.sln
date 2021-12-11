@@ -5,7 +5,9 @@ VisualStudioVersion = 17.0.31919.166
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DataLayer", "DataLayer", "{6A5B9D55-3625-4CB9-9272-C11AA564DD57}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuizOverflow.Models", "QuizOverflow.Models\QuizOverflow.Models.csproj", "{783EE92C-6B7B-4A1F-94E9-BC8809655697}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QuizOverflow.Models", "QuizOverflow.Models\QuizOverflow.Models.csproj", "{783EE92C-6B7B-4A1F-94E9-BC8809655697}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuizOverflow.Data", "QuizOverflow.Data\QuizOverflow.Data.csproj", "{1FFC7737-F257-43C3-875D-7F891A202DDB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,12 +19,17 @@ Global
 		{783EE92C-6B7B-4A1F-94E9-BC8809655697}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{783EE92C-6B7B-4A1F-94E9-BC8809655697}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{783EE92C-6B7B-4A1F-94E9-BC8809655697}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1FFC7737-F257-43C3-875D-7F891A202DDB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1FFC7737-F257-43C3-875D-7F891A202DDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1FFC7737-F257-43C3-875D-7F891A202DDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1FFC7737-F257-43C3-875D-7F891A202DDB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{783EE92C-6B7B-4A1F-94E9-BC8809655697} = {6A5B9D55-3625-4CB9-9272-C11AA564DD57}
+		{1FFC7737-F257-43C3-875D-7F891A202DDB} = {6A5B9D55-3625-4CB9-9272-C11AA564DD57}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B20FA21C-14D8-405D-A1AA-D726AF50095F}
