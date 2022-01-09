@@ -1,9 +1,10 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using QuizOverflow.Data.Contracts;
 using QuizOverflow.Models;
 
 namespace QuizOverflow.Data
 {
-    public class QuizOverflowDbContext : DbContext
+    public class QuizOverflowDbContext : DbContext, IQuizOverflowDbContext
     {
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
