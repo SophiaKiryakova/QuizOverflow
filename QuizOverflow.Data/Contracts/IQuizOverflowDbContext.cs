@@ -9,5 +9,6 @@ namespace QuizOverflow.Data.Contracts
         DbSet<T> Set<T>() where T : class;
         EntityEntry<T> Entry<T>(T entity) where T : class;
         DatabaseFacade Database { get; }
+        Task<int> SaveChangesAsync(CancellationToken cancellationToken = new CancellationToken());
     }
 }
