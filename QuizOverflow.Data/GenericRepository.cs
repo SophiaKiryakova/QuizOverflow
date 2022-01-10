@@ -49,7 +49,9 @@ namespace QuizOverflow.Data
 
             EntityEntry entry = _context.Entry(entity);
 
+            entity.CreatedOn = DateTime.Now;
             entity.ModifiedOn = DateTime.Now;
+            entity.DeletedOn = null;
             entity.IsDeleted = false;
 
             if (entry.State != EntityState.Detached)
@@ -58,7 +60,7 @@ namespace QuizOverflow.Data
             }
             else
             {
-                entity.CreatedOn = DateTime.Now;
+                _dbSet.Add(entity);
             }
         }
 
@@ -74,17 +76,15 @@ namespace QuizOverflow.Data
         }
 
         /// <summary>
-        /// Marks an entity as deleted by changing the IsDeleted flag and adding DeletedOn.
+        /// Marks an entity as deleted, changes the IsDeleted flag and adds DeletedOn.
         /// </summary>
         public void Delete(T entity)
         {
-            if (entity == null)
-            {
-                throw new ArgumentNullException("Entity cannot be null");
-            }
+            CheckIfEntityIsNull(entity);
 
             entity.IsDeleted = true;
             entity.DeletedOn = DateTime.Now;
+            entity.ModifiedOn = DateTime.Now;
 
             var entry = _context.Entry(entity);
 
@@ -95,7 +95,7 @@ namespace QuizOverflow.Data
         }
 
         /// <summary>
-        /// Marks a collection of entities as deleted by changing the IsDeleted flag and adding DeletedOn.
+        /// Marks a collection of entities as deleted, changes the IsDeleted flag and adds DeletedOn.
         /// </summary>
         public void DeleteRange(IEnumerable<T> entities)
         {
@@ -106,7 +106,7 @@ namespace QuizOverflow.Data
         }
 
         /// <summary>
-        /// Marks an entity as updated by changing the ModifiedOn property.
+        /// Marks an entity as updated and changes the ModifiedOn property.
         /// </summary>
         public void Update(T entity)
         {
@@ -125,7 +125,7 @@ namespace QuizOverflow.Data
         }
 
         /// <summary>
-        /// Marks an entity as updated by changing the ModifiedOn property.
+        /// Marks a collection of entities as updated and changes the ModifiedOn property.
         /// </summary>
         public void UpdateRange(IEnumerable<T> entities)
         {
