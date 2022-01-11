@@ -13,5 +13,6 @@ namespace QuizOverflow.Data.Contracts
         void DeleteRange(IEnumerable<T> entities);
         void Update(T entity);
         void UpdateRange(IEnumerable<T> entities);
+        void ExecuteRawScript(string sqlQuery);
     }
 }

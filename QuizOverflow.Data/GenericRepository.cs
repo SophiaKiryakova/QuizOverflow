@@ -135,6 +135,11 @@ namespace QuizOverflow.Data
             }
         }
 
+        public void ExecuteRawScript(string sqlQuery)
+        {
+            _context.Database.ExecuteSqlRaw(sqlQuery);
+        }
+
         private void CheckIfEntityIsNull(T entity)
         {
             if (entity == null)
