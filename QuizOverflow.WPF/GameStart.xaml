@@ -1,0 +1,14 @@
+﻿<Page x:Class="QuizOverflow.WPF.GameStart"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:QuizOverflow.WPF"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="GameStart">
+
+    <Grid Background="#FF498B9A">
+        <Label Content="QuizOverflow" HorizontalAlignment="Left" Height="70" VerticalAlignment="Center" Width="719" FontSize="48" RenderTransformOrigin="0.478,0.481" Canvas.Left="207" Canvas.Top="171" Cursor="Arrow" FontFamily="Leelawadee UI Semilight" Foreground="White" Margin="71,0,0,0"/>
+    </Grid>
+</Page>
