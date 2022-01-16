@@ -7,7 +7,12 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="11.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\QuizOverflow.Data\QuizOverflow.Data.csproj" />
+    <ProjectReference Include="..\QuizOverflow.DTO\QuizOverflow.DTO.csproj" />
   </ItemGroup>
 
 </Project>
