@@ -11,6 +11,7 @@ namespace QuizOverflow.WPF
         public MainWindow(ISeedService seedService)
         {
             seedService.SeedCategories();
+            seedService.SeedQuestions();
         }
 
         public MainWindow()

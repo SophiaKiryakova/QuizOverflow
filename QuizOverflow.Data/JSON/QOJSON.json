@@ -1,0 +1,794 @@
+[
+  {
+    "name": "Which acid contains Oxigen?",
+    "answers": [
+      {
+        "name": "Sulphuric acid",
+        "isCorrect": true
+      },
+      {
+        "name": "Hydrochloric acid",
+        "isCorrect": false
+      },
+      {
+        "name": "Hydrofluoric acid",
+        "isCorrect": false
+      },
+      {
+        "name": "Hydrocyanic acid",
+        "isCorrect": false
+      }
+    ],
+    "categoryId": 1
+  },
+  {
+    "name": "Of the following name/symbol combinations of elements, which one is true?",
+    "answers": [
+      {
+        "name": "Uranium/U",
+        "isCorrect": true
+      },
+      {
+        "name": "Iron/I",
+        "isCorrect": false
+      },
+      {
+        "name": "Gold/G",
+        "isCorrect": false
+      },
+      {
+        "name": "Silver/S",
+        "isCorrect": false
+      }
+    ],
+    "categoryId": 1
+  },
+  {
+    "name": "The most abundant metal in the earth's crust is:",
+    "answers": [
+      {
+        "name": "Al",
+        "isCorrect": true
+      },
+      {
+        "name": "Na",
+        "isCorrect": false
+      },
+      {
+        "name": "Fe",
+        "isCorrect": false
+      },
+      {
+        "name": "Cu",
+        "isCorrect": false
+      }
+    ],
+    "categoryId": 1
+  },
+  {
+    "name": "Which of the following has a positive charge?",
+    "answers": [
+      {
+        "name": "Proton",
+        "isCorrect": true
+      },
+      {
+        "name": "Neutron",
+        "isCorrect": false
+      },
+      {
+        "name": "Anion",
+        "isCorrect": false
+      },
+      {
+        "name": "Atom",
+        "isCorrect": false
+      }
+    ],
+    "categoryId": 1
+  },
+  {
+    "name": "The neutral atoms of all of the isotopes of the same element have?",
+    "answers": [
+      {
+        "name": "The same number of electrons.",
+        "isCorrect": true
+      },
+      {
+        "name": "Equal numbers of neutrons.",
+        "isCorrect": false
+      },
+      {
+        "name": "Different numbers of protons.",
+        "isCorrect": false
+      },
+      {
+        "name": "The same mass numbers.",
+        "isCorrect": false
+      }
+    ],
+    "categoryId": 1
+  },
+  {
+    "name": "How many p electrons are there in an atom of rubidium?",
+    "answers": [
+      {
+        "name": "18",
+        "isCorrect": true
+      },
+      {
+        "name": "12",
+        "isCorrect": false
+      },
+      {
+        "name": "24",
+        "isCorrect": false
+      },
+      {
+        "name": "9",
+        "isCorrect": false
+      }
+    ],
+    "categoryId": 1
+  },
+  {
+    "name": "The several types of white blood cells are sometime collectively referred to as",
+    "answers": [
+      {
+        "name": "Leukocytes",
+        "isCorrect": true
+      },
+      {
+        "name": "Erythroblasts",
+        "isCorrect": false
+      },
+      {
+        "name": "Thrombocytes",
+        "isCorrect": false
+      },
+      {
+        "name": "Erythrocytes",
+        "isCorrect": false
+      }
+    ],
+    "categoryId": 2
+  },
+  {
+    "name": "When looking at the cross section of the human tibia, one finds the red marrow in",
+    "answers": [
+      {
+        "name": "Medullary cavity",
+        "isCorrect": true
+      },
+      {
+        "name": "Cancellous bone",
+        "isCorrect": false
+      },
+      {
+        "name": "Periosteum",
+        "isCorrect": false
+      },
+      {
+        "name": "Epiphysis",
+        "isCorrect": false
+      }
+    ],
+    "categoryId": 2
+  },
+  {
+    "name": "In which cerebral lobes is the speech center located?",
+    "answers": [
+      {
+        "name": "Frontal",
+        "isCorrect": true
+      },
+      {
+        "name": "Parietal",
+        "isCorrect": false
+      },
+      {
+        "name": "Temporal",
+        "isCorrect": false
+      },
+      {
+        "name": "Occipital",
+        "isCorrect": false
+      }
+    ],
+    "categoryId": 2
+  },
+  {
+    "name": "Cariology is the study of the:",
+    "answers": [
+      {
+        "name": "Tooth decay",
+        "isCorrect": true
+      },
+      {
+        "name": "Human heart",
+        "isCorrect": false
+      },
+      {
+        "name": "Kidneys",
+        "isCorrect": false
+      },
+      {
+        "name": "Liver",
+        "isCorrect": false
+      }
+    ],
+    "categoryId": 2
+  },
+  {
+    "name": "In cell division, the phase following the metaphase is known as:",
+    "answers": [
+      {
+        "name": "Anaphase",
+        "isCorrect": true
+      },
+      {
+        "name": "Prophase",
+        "isCorrect": false
+      },
+      {
+        "name": "Telophase",
+        "isCorrect": false
+      },
+      {
+        "name": "Extophase",
+        "isCorrect": false
+      }
+    ],
+    "categoryId": 2
+  },
+  {
+    "name": "Which of the following are not part of a neuron?",
+    "answers": [
+      {
+        "name": "Synapse",
+        "isCorrect": true
+      },
+      {
+        "name": "Axon",
+        "isCorrect": false
+      },
+      {
+        "name": "Nissl bodies",
+        "isCorrect": false
+      },
+      {
+        "name": "Dendrite",
+        "isCorrect": false
+      }
+    ],
+    "categoryId": 2
+  },
+  {
+    "name": "If electrical conductivity increases with the increase of temperature of a substance, then it is a:",
+    "answers": [
+      {
+        "name": "Semiconductor",
+        "isCorrect": true
+      },
+      {
+        "name": "Conductor",
+        "isCorrect": false
+      },
+      {
+        "name": "Insulator",
+        "isCorrect": false
+      },
+      {
+        "name": "Carborator",
+        "isCorrect": false
+      }
+    ],
+    "categoryId": 3
+  },
+  {
+    "name": "The Product of Force and Velocity is called:",
+    "answers": [
+      {
+        "name": "Power",
+        "isCorrect": true
+      },
+      {
+        "name": "Work",
+        "isCorrect": false
+      },
+      {
+        "name": "Energy",
+        "isCorrect": false
+      },
+      {
+        "name": "Momentum",
+        "isCorrect": false
+      }
+    ],
+    "categoryId": 3
+  },
+  {
+    "name": "With the increase of pressure, the boiling point of any substance",
+    "answers": [
+      {
+        "name": "Increases",
+        "isCorrect": true
+      },
+      {
+        "name": "Decreases",
+        "isCorrect": false
+      },
+      {
+        "name": "Remains unchanged",
+        "isCorrect": false
+      },
+      {
+        "name": "Becomes zero",
+        "isCorrect": false
+      }
+    ],
+    "categoryId": 3
+  },
+  {
+    "name": "What is the unit of Astronomical Distance ?",
+    "answers": [
+      {
+        "name": "Light year",
+        "isCorrect": true
+      },
+      {
+        "name": "Weber",
+        "isCorrect": false
+      },
+      {
+        "name": "Angstrom",
+        "isCorrect": false
+      },
+      {
+        "name": "Lux",
+        "isCorrect": false
+      }
+    ],
+    "categoryId": 3
+  },
+  {
+    "name": "Bolometer is used to measure:",
+    "answers": [
+      {
+        "name": "Velocity",
+        "isCorrect": true
+      },
+      {
+        "name": "Frequency",
+        "isCorrect": false
+      },
+      {
+        "name": "Temperature",
+        "isCorrect": false
+      },
+      {
+        "name": "Wavelength",
+        "isCorrect": false
+      }
+    ],
+    "categoryId": 3
+  },
+  {
+    "name": "The apparent depth of a coin inside water tub decreases due to",
+    "answers": [
+      {
+        "name": "Refraction of light",
+        "isCorrect": true
+      },
+      {
+        "name": "Total internal reflection",
+        "isCorrect": false
+      },
+      {
+        "name": "Reflection of light",
+        "isCorrect": false
+      },
+      {
+        "name": "Dispertion of light",
+        "isCorrect": false
+      }
+    ],
+    "categoryId": 3
+  },
+  {
+    "name": "The Invisible Man , a classic science fiction novel, was written by what author?",
+    "answers": [
+      {
+        "name": "H. G. Wells",
+        "isCorrect": true
+      },
+      {
+        "name": "Oscar Wilde",
+        "isCorrect": false
+      },
+      {
+        "name": "Jules Vern",
+        "isCorrect": false
+      },
+      {
+        "name": "Robert Louis Stevenson",
+        "isCorrect": false
+      }
+    ],
+    "categoryId": 4
+  },
+  {
+    "name": "Who wrote Frankenstein?",
+    "answers": [
+      {
+        "name": "Mary Shelley",
+        "isCorrect": true
+      },
+      {
+        "name": "Alistair Maclean",
+        "isCorrect": false
+      },
+      {
+        "name": "Arthur Conan Doyle",
+        "isCorrect": false
+      },
+      {
+        "name": "J.K. Rowling",
+        "isCorrect": false
+      }
+    ],
+    "categoryId": 4
+  },
+  {
+    "name": "In Alice in Wonderland, which character is most often seen weeping?",
+    "answers": [
+      {
+        "name": "The Mock Turtle",
+        "isCorrect": true
+      },
+      {
+        "name": "The Gryphon",
+        "isCorrect": false
+      },
+      {
+        "name": "The Dormouse",
+        "isCorrect": false
+      },
+      {
+        "name": "Bill the Lizard",
+        "isCorrect": false
+      }
+    ],
+    "categoryId": 4
+  },
+  {
+    "name": "Which of the following authors was not also a doctor?",
+    "answers": [
+      {
+        "name": "Voltaire ",
+        "isCorrect": true
+      },
+      {
+        "name": "William Carlos Williams",
+        "isCorrect": false
+      },
+      {
+        "name": "Somerset Maugham",
+        "isCorrect": false
+      },
+      {
+        "name": "Anton Chekhov",
+        "isCorrect": false
+      }
+    ],
+    "categoryId": 4
+  },
+  {
+    "name": "Which one of the following was not one of The Three Musketeers?",
+    "answers": [
+      {
+        "name": "D' Artagnan",
+        "isCorrect": true
+      },
+      {
+        "name": "Athos",
+        "isCorrect": false
+      },
+      {
+        "name": "Aramis",
+        "isCorrect": false
+      },
+      {
+        "name": "Porthos",
+        "isCorrect": false
+      }
+    ],
+    "categoryId": 4
+  },
+  {
+    "name": "From Gulliver's Travels, in what year was Lemuel Gulliver ship wrecked on Lilliput?",
+    "answers": [
+      {
+        "name": "1699",
+        "isCorrect": true
+      },
+      {
+        "name": "1599",
+        "isCorrect": false
+      },
+      {
+        "name": "1799",
+        "isCorrect": false
+      },
+      {
+        "name": "1899",
+        "isCorrect": false
+      }
+    ],
+    "categoryId": 4
+  },
+  {
+    "name": "Whose death sparked World War I?",
+    "answers": [
+      {
+        "name": "Archduke Franz Ferdinand",
+        "isCorrect": true
+      },
+      {
+        "name": "Queen Victoria",
+        "isCorrect": false
+      },
+      {
+        "name": "Archbishop Ussher",
+        "isCorrect": false
+      },
+      {
+        "name": "Kaiser Wilhelm",
+        "isCorrect": false
+      }
+    ],
+    "categoryId": 5
+  },
+  {
+    "name": "Who was Karl Marx’s associate and fellow political theoretician?",
+    "answers": [
+      {
+        "name": "Friedrich Engels",
+        "isCorrect": true
+      },
+      {
+        "name": "Friedrich Reich",
+        "isCorrect": false
+      },
+      {
+        "name": "Friedrich II",
+        "isCorrect": false
+      },
+      {
+        "name": "Friedrich Nietzsche",
+        "isCorrect": false
+      }
+    ],
+    "categoryId": 5
+  },
+  {
+    "name": "Which of these battles did not involve Roman soldiers?",
+    "answers": [
+      {
+        "name": "Thermopylae",
+        "isCorrect": true
+      },
+      {
+        "name": "Cannae",
+        "isCorrect": false
+      },
+      {
+        "name": "Chalons",
+        "isCorrect": false
+      },
+      {
+        "name": "Arretium",
+        "isCorrect": false
+      }
+    ],
+    "categoryId": 5
+  },
+  {
+    "name": "How many kings of England have been named Henry?",
+    "answers": [
+      {
+        "name": "8",
+        "isCorrect": true
+      },
+      {
+        "name": "16",
+        "isCorrect": false
+      },
+      {
+        "name": "10",
+        "isCorrect": false
+      },
+      {
+        "name": "4",
+        "isCorrect": false
+      }
+    ],
+    "categoryId": 5
+  },
+  {
+    "name": "Which Egyptian pharaoh believed in the idea of a single god?",
+    "answers": [
+      {
+        "name": "Akhenaton",
+        "isCorrect": true
+      },
+      {
+        "name": "Cheops",
+        "isCorrect": false
+      },
+      {
+        "name": "Nefertiti",
+        "isCorrect": false
+      },
+      {
+        "name": "Tutankhamen",
+        "isCorrect": false
+      }
+    ],
+    "categoryId": 5
+  },
+  {
+    "name": "Which of these people was a spy in World War I?",
+    "answers": [
+      {
+        "name": "Mata Hari",
+        "isCorrect": true
+      },
+      {
+        "name": "James Bond",
+        "isCorrect": false
+      },
+      {
+        "name": "Benedict Arnold",
+        "isCorrect": false
+      },
+      {
+        "name": "Serge Plekhanov",
+        "isCorrect": false
+      }
+    ],
+    "categoryId": 5
+  },
+  {
+    "name": "The scarcity or crop failure of which of the following can cause a serious edible oil crisis in India?",
+    "answers": [
+      {
+        "name": "Groundnut",
+        "isCorrect": true
+      },
+      {
+        "name": "Coconut",
+        "isCorrect": false
+      },
+      {
+        "name": "Linseed",
+        "isCorrect": false
+      },
+      {
+        "name": "Mustard",
+        "isCorrect": false
+      }
+    ],
+    "categoryId": 6
+  },
+  {
+    "name": "The pennines (Europe), Appalachians (America) and the Aravallis (India) are examples of?",
+    "answers": [
+      {
+        "name": "Old mountains",
+        "isCorrect": true
+      },
+      {
+        "name": "Young mountains",
+        "isCorrect": false
+      },
+      {
+        "name": "Fold mountains",
+        "isCorrect": false
+      },
+      {
+        "name": "Block mountains",
+        "isCorrect": false
+      }
+    ],
+    "categoryId": 6
+  },
+  {
+    "name": "Hagia Sophia is located in which country?",
+    "answers": [
+      {
+        "name": "Turkey",
+        "isCorrect": true
+      },
+      {
+        "name": "Russia",
+        "isCorrect": false
+      },
+      {
+        "name": "France",
+        "isCorrect": false
+      },
+      {
+        "name": "Germany",
+        "isCorrect": false
+      }
+    ],
+    "categoryId": 6
+  },
+  {
+    "name": "Which of the following is the longest continuous barrier reef in the world?",
+    "answers": [
+      {
+        "name": "New Caledonian Barrier Reef",
+        "isCorrect": true
+      },
+      {
+        "name": "Great Barrier Reef",
+        "isCorrect": false
+      },
+      {
+        "name": "Kingman Reef",
+        "isCorrect": false
+      },
+      {
+        "name": "Rainbow Reef",
+        "isCorrect": false
+      }
+    ],
+    "categoryId": 6
+  },
+  {
+    "name": "Which of the following glacier is located in Nepal?",
+    "answers": [
+      {
+        "name": "Langtang Glacier",
+        "isCorrect": true
+      },
+      {
+        "name": "Zemu Glacier",
+        "isCorrect": false
+      },
+      {
+        "name": "Parkachik Glacier",
+        "isCorrect": false
+      },
+      {
+        "name": "Machoi Glacier",
+        "isCorrect": false
+      }
+    ],
+    "categoryId": 6
+  },
+  {
+    "name": "What is the change in the particle size of the rock during the process of metamorphism called?",
+    "answers": [
+      {
+        "name": "Recrystallization",
+        "isCorrect": true
+      },
+      {
+        "name": "Banding",
+        "isCorrect": false
+      },
+      {
+        "name": "Fossilization",
+        "isCorrect": false
+      },
+      {
+        "name": "Sedimentation",
+        "isCorrect": false
+      }
+    ],
+    "categoryId": 6
+  }
+]

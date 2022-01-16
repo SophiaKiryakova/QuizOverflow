@@ -3,5 +3,6 @@
     public interface ISeedService
     {
         Task SeedCategories();
+        Task SeedQuestions();
     }
 }
