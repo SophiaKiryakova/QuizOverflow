@@ -1,16 +1,22 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using AutoMapper;
+using Microsoft.EntityFrameworkCore;
 using QuizOverflow.Data.Contracts;
+using QuizOverflow.DTO;
+using QuizOverflow.Models;
 using QuizOverflow.Services.Contracts;
+using System.Text.Json;
 
 namespace QuizOverflow.Services.Services
 {
     public class SeedService: ISeedService
     {
-        private IUnitOfWork _unitOfWork;
+        private readonly IUnitOfWork _unitOfWork;
+        private readonly IMapper _mapper;
 
-        public SeedService(IUnitOfWork unitOfWork)
+        public SeedService(IUnitOfWork unitOfWork, IMapper mapper)
         {
             _unitOfWork = unitOfWork;
+            _mapper = mapper;
         }
 
         public async Task SeedCategories()
@@ -36,6 +42,23 @@ namespace QuizOverflow.Services.Services
 
                 _unitOfWork.CategoryRepository.ExecuteRawScript(sqlQuery);
             }
+        }
+
+        public async Task SeedQuestions()
+        {
+            var options = new JsonSerializerOptions
+            {
+                PropertyNamingPolicy = JsonNamingPolicy.CamelCase,
+                WriteIndented = true
+            };
+
+            var text = File.ReadAllText(@"D:\Coding\Projects\Goshi\QuizOverflow\QuizOverflow.Data\JSON\QOJSON.json");
+
+            var questionDtos = JsonSerializer.Deserialize<List<QuestionDto>>(text, options);
+            var questionEntities = _mapper.Map<List<QuestionDto>, List<Question>>(questionDtos);
+            
+            _unitOfWork.QuestionRepository.CreateRange(questionEntities);
+            await _unitOfWork.SaveChangesAsync();
         }
     }
 }
