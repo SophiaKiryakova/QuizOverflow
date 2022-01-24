@@ -19,7 +19,8 @@
         "isCorrect": false
       }
     ],
-    "categoryId": 1
+    "categoryId": 1,
+    "points": 10
   },
   {
     "name": "Of the following name/symbol combinations of elements, which one is true?",
@@ -41,7 +42,8 @@
         "isCorrect": false
       }
     ],
-    "categoryId": 1
+    "categoryId": 1,
+    "points": 10
   },
   {
     "name": "The most abundant metal in the earth's crust is:",
@@ -63,7 +65,8 @@
         "isCorrect": false
       }
     ],
-    "categoryId": 1
+    "categoryId": 1,
+    "points": 20
   },
   {
     "name": "Which of the following has a positive charge?",
@@ -85,7 +88,8 @@
         "isCorrect": false
       }
     ],
-    "categoryId": 1
+    "categoryId": 1,
+    "points": 20
   },
   {
     "name": "The neutral atoms of all of the isotopes of the same element have?",
@@ -107,7 +111,8 @@
         "isCorrect": false
       }
     ],
-    "categoryId": 1
+    "categoryId": 1,
+    "points": 30
   },
   {
     "name": "How many p electrons are there in an atom of rubidium?",
@@ -129,7 +134,8 @@
         "isCorrect": false
       }
     ],
-    "categoryId": 1
+    "categoryId": 1,
+    "points": 30
   },
   {
     "name": "The several types of white blood cells are sometime collectively referred to as",
@@ -151,7 +157,8 @@
         "isCorrect": false
       }
     ],
-    "categoryId": 2
+    "categoryId": 2,
+    "points": 10
   },
   {
     "name": "When looking at the cross section of the human tibia, one finds the red marrow in",
@@ -173,7 +180,8 @@
         "isCorrect": false
       }
     ],
-    "categoryId": 2
+    "categoryId": 2,
+    "points": 10
   },
   {
     "name": "In which cerebral lobes is the speech center located?",
@@ -195,7 +203,8 @@
         "isCorrect": false
       }
     ],
-    "categoryId": 2
+    "categoryId": 2,
+    "points": 20
   },
   {
     "name": "Cariology is the study of the:",
@@ -217,7 +226,8 @@
         "isCorrect": false
       }
     ],
-    "categoryId": 2
+    "categoryId": 2,
+    "points": 20
   },
   {
     "name": "In cell division, the phase following the metaphase is known as:",
@@ -239,7 +249,8 @@
         "isCorrect": false
       }
     ],
-    "categoryId": 2
+    "categoryId": 2,
+    "points": 30
   },
   {
     "name": "Which of the following are not part of a neuron?",
@@ -261,7 +272,8 @@
         "isCorrect": false
       }
     ],
-    "categoryId": 2
+    "categoryId": 2,
+    "points": 30
   },
   {
     "name": "If electrical conductivity increases with the increase of temperature of a substance, then it is a:",
@@ -283,7 +295,8 @@
         "isCorrect": false
       }
     ],
-    "categoryId": 3
+    "categoryId": 3,
+    "points": 10
   },
   {
     "name": "The Product of Force and Velocity is called:",
@@ -305,7 +318,8 @@
         "isCorrect": false
       }
     ],
-    "categoryId": 3
+    "categoryId": 3,
+    "points": 10
   },
   {
     "name": "With the increase of pressure, the boiling point of any substance",
@@ -327,7 +341,8 @@
         "isCorrect": false
       }
     ],
-    "categoryId": 3
+    "categoryId": 3,
+    "points": 20
   },
   {
     "name": "What is the unit of Astronomical Distance ?",
@@ -349,7 +364,8 @@
         "isCorrect": false
       }
     ],
-    "categoryId": 3
+    "categoryId": 3,
+    "points": 20
   },
   {
     "name": "Bolometer is used to measure:",
@@ -371,7 +387,8 @@
         "isCorrect": false
       }
     ],
-    "categoryId": 3
+    "categoryId": 3,
+    "points": 30
   },
   {
     "name": "The apparent depth of a coin inside water tub decreases due to",
@@ -393,7 +410,8 @@
         "isCorrect": false
       }
     ],
-    "categoryId": 3
+    "categoryId": 3,
+    "points": 30
   },
   {
     "name": "The Invisible Man , a classic science fiction novel, was written by what author?",
@@ -415,7 +433,8 @@
         "isCorrect": false
       }
     ],
-    "categoryId": 4
+    "categoryId": 4,
+    "points": 10
   },
   {
     "name": "Who wrote Frankenstein?",
@@ -437,7 +456,8 @@
         "isCorrect": false
       }
     ],
-    "categoryId": 4
+    "categoryId": 4,
+    "points": 10
   },
   {
     "name": "In Alice in Wonderland, which character is most often seen weeping?",
@@ -459,7 +479,8 @@
         "isCorrect": false
       }
     ],
-    "categoryId": 4
+    "categoryId": 4,
+    "points": 20
   },
   {
     "name": "Which of the following authors was not also a doctor?",
@@ -481,7 +502,8 @@
         "isCorrect": false
       }
     ],
-    "categoryId": 4
+    "categoryId": 4,
+    "points": 20
   },
   {
     "name": "Which one of the following was not one of The Three Musketeers?",
@@ -503,7 +525,8 @@
         "isCorrect": false
       }
     ],
-    "categoryId": 4
+    "categoryId": 4,
+    "points": 30
   },
   {
     "name": "From Gulliver's Travels, in what year was Lemuel Gulliver ship wrecked on Lilliput?",
@@ -525,7 +548,8 @@
         "isCorrect": false
       }
     ],
-    "categoryId": 4
+    "categoryId": 4,
+    "points": 40
   },
   {
     "name": "Whose death sparked World War I?",
@@ -547,7 +571,8 @@
         "isCorrect": false
       }
     ],
-    "categoryId": 5
+    "categoryId": 5,
+    "points": 10
   },
   {
     "name": "Who was Karl Marx’s associate and fellow political theoretician?",
@@ -569,7 +594,8 @@
         "isCorrect": false
       }
     ],
-    "categoryId": 5
+    "categoryId": 5,
+    "points": 10
   },
   {
     "name": "Which of these battles did not involve Roman soldiers?",
@@ -591,7 +617,8 @@
         "isCorrect": false
       }
     ],
-    "categoryId": 5
+    "categoryId": 5,
+    "points": 20
   },
   {
     "name": "How many kings of England have been named Henry?",
@@ -613,7 +640,8 @@
         "isCorrect": false
       }
     ],
-    "categoryId": 5
+    "categoryId": 5,
+    "points": 20
   },
   {
     "name": "Which Egyptian pharaoh believed in the idea of a single god?",
@@ -635,7 +663,8 @@
         "isCorrect": false
       }
     ],
-    "categoryId": 5
+    "categoryId": 5,
+    "points": 30
   },
   {
     "name": "Which of these people was a spy in World War I?",
@@ -657,7 +686,8 @@
         "isCorrect": false
       }
     ],
-    "categoryId": 5
+    "categoryId": 5,
+    "points": 30
   },
   {
     "name": "The scarcity or crop failure of which of the following can cause a serious edible oil crisis in India?",
@@ -679,7 +709,8 @@
         "isCorrect": false
       }
     ],
-    "categoryId": 6
+    "categoryId": 6,
+    "points": 10
   },
   {
     "name": "The pennines (Europe), Appalachians (America) and the Aravallis (India) are examples of?",
@@ -701,7 +732,8 @@
         "isCorrect": false
       }
     ],
-    "categoryId": 6
+    "categoryId": 6,
+    "points": 10
   },
   {
     "name": "Hagia Sophia is located in which country?",
@@ -723,7 +755,8 @@
         "isCorrect": false
       }
     ],
-    "categoryId": 6
+    "categoryId": 6,
+    "points": 20
   },
   {
     "name": "Which of the following is the longest continuous barrier reef in the world?",
@@ -745,7 +778,8 @@
         "isCorrect": false
       }
     ],
-    "categoryId": 6
+    "categoryId": 6,
+    "points": 20
   },
   {
     "name": "Which of the following glacier is located in Nepal?",
@@ -767,7 +801,8 @@
         "isCorrect": false
       }
     ],
-    "categoryId": 6
+    "categoryId": 6,
+    "points": 30
   },
   {
     "name": "What is the change in the particle size of the rock during the process of metamorphism called?",
@@ -789,6 +824,7 @@
         "isCorrect": false
       }
     ],
-    "categoryId": 6
+    "categoryId": 6,
+    "points": 30
   }
 ]
