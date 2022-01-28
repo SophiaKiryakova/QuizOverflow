@@ -52,12 +52,15 @@ namespace QuizOverflow.Services.Services
                 WriteIndented = true
             };
 
-            var text = File.ReadAllText(@"D:\Coding\Projects\Goshi\QuizOverflow\QuizOverflow.Data\JSON\QOJSON.json");
+            var text = File.ReadAllText(@"C:\Users\Sophie\Desktop\Telerik\QuizOverflow\QuizOverflow.Data\JSON\QOJSON.json");
 
             var questionDtos = JsonSerializer.Deserialize<List<QuestionDto>>(text, options);
             var questionEntities = _mapper.Map<List<QuestionDto>, List<Question>>(questionDtos);
-            
+            var answerEntities = questionEntities.SelectMany(q => q.Answers);
+
+            _unitOfWork.AnswerRepository.CreateRange(answerEntities);
             _unitOfWork.QuestionRepository.CreateRange(questionEntities);
+
             await _unitOfWork.SaveChangesAsync();
         }
     }
