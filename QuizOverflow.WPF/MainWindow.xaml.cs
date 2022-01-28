@@ -1,4 +1,5 @@
 ﻿using QuizOverflow.Services.Contracts;
+using System.Threading.Tasks;
 using System.Windows.Navigation;
 
 namespace QuizOverflow.WPF
@@ -10,8 +11,8 @@ namespace QuizOverflow.WPF
     {
         public MainWindow(ISeedService seedService)
         {
-            seedService.SeedCategories();
-            seedService.SeedQuestions();
+            Task.Run(() => seedService.SeedCategories()).Wait();
+            Task.Run(() => seedService.SeedQuestions()).Wait();
         }
 
         public MainWindow()
