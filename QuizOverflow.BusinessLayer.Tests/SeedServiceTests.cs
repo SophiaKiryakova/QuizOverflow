@@ -50,14 +50,27 @@ namespace QuizOverflow.BusinessLayer.Tests
                 .AsQueryable()
                 .BuildMock();
 
-            var sqlQuery = "test string query";
+            var sqlQuery = @" SET IDENTITY_INSERT [dbo].[Categories] ON 
+                 INSERT [dbo].[Categories] ([Id], [Name], [CreatedOn], [ModifiedOn], [IsDeleted], [DeletedOn]) 
+                 VALUES (1, 'Chemistry', GETDATE(), GETDATE(),0, GETDATE())
+                 INSERT [dbo].[Categories] ([Id], [Name], [CreatedOn], [ModifiedOn], [IsDeleted], DeletedOn) 
+                 VALUES (2, 'Biology', GETDATE(), GETDATE(),0, GETDATE())
+                 INSERT [dbo].[Categories] ([Id], [Name], [CreatedOn], [ModifiedOn], [IsDeleted], DeletedOn) 
+                 VALUES (3, 'Physics', GETDATE(), GETDATE(),0, GETDATE())
+                 INSERT [dbo].[Categories] ([Id], [Name], [CreatedOn], [ModifiedOn], [IsDeleted], DeletedOn) 
+                 VALUES (4, 'Literature', GETDATE(), GETDATE(),0, GETDATE())
+                 INSERT [dbo].[Categories] ([Id], [Name], [CreatedOn], [ModifiedOn], [IsDeleted], DeletedOn) 
+                 VALUES (5, 'History', GETDATE(), GETDATE(),0, GETDATE())
+                 INSERT [dbo].[Categories] ([Id], [Name], [CreatedOn], [ModifiedOn], [IsDeleted], DeletedOn) 
+                 VALUES (6, 'Geography', GETDATE(), GETDATE(),0, GETDATE())
+                 SET IDENTITY_INSERT [dbo].[Categories] OFF";
 
             _unitOfWork.Setup(uow => uow.CategoryRepository.Get()).Returns(mockQuery.Object);
             _unitOfWork.Setup(uow => uow.CategoryRepository.ExecuteRawScript(sqlQuery)).Verifiable();
 
             await _seedService.SeedCategories();
 
-            _unitOfWork.Verify(uow => uow.CategoryRepository.ExecuteRawScript(sqlQuery), Times.Never());
+            _unitOfWork.Verify(uow => uow.CategoryRepository.ExecuteRawScript(sqlQuery), Times.Once());
         }
     }
 }
