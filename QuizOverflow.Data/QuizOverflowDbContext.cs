@@ -16,5 +16,8 @@ namespace QuizOverflow.Data
         DbSet<HighScore> HighScores { get; set; }
         DbSet<Player> Players { get; set; }
         DbSet<Question> Questions { get; set; }
+        DbSet<Game> Games { get; set; }
+        DbSet<GamePlayer> GamesPlayers { get; set; }
+        DbSet<GameQuestion> GamesQuestions { get; set; }
     }
 }

@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using QuizOverflow.Data;
 
@@ -11,9 +12,10 @@ using QuizOverflow.Data;
 namespace QuizOverflow.Data.Migrations
 {
     [DbContext(typeof(QuizOverflowDbContext))]
-    partial class QuizOverflowDbContextModelSnapshot : ModelSnapshot
+    [Migration("20220131123251_Add_GameEntity")]
+    partial class Add_GameEntity
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

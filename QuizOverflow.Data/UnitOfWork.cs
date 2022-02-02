@@ -12,6 +12,7 @@ namespace QuizOverflow.Data
         private IGenericRepository<HighScore> _highScoreRepository;
         private IGenericRepository<Player> _playerRepository;
         private IGenericRepository<Question> _questionRepository;
+        private IGenericRepository<Game> _gameRepository;
 
         public UnitOfWork(IQuizOverflowDbContext context)
         {
@@ -41,6 +42,11 @@ namespace QuizOverflow.Data
         public IGenericRepository<Question> QuestionRepository
         {
             get { return _questionRepository ?? (_questionRepository = new GenericRepository<Question>(_context)); }
+        }
+
+        public IGenericRepository<Game> GameRepository
+        {
+            get { return _gameRepository ?? (_gameRepository = new GenericRepository<Game>(_context)); }
         }
 
         public async Task<int> SaveChangesAsync()
