@@ -6,10 +6,8 @@ using System.Threading.Tasks;
 
 namespace QuizOverflow.Data.Contracts
 {
-    interface ICategoryService
+    public interface ICategoryService
     {
-        public async Task<List<CategoryDto>> GetCategories()
-        {
-        }
+        public async Task<List<CategoryDto>> GetCategories();
     }
 }
