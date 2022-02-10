@@ -9,7 +9,7 @@ namespace QuizOverflow.Data.Contracts
         IGenericRepository<HighScore> HighScoresRepository { get; }
         IGenericRepository<Player> PlayerRepository { get; }
         IGenericRepository<Question> QuestionRepository { get; }
-        IGenericRepository<Question> GameRepository { get; }
+        IGenericRepository<Game> GameRepository { get; }
 
         Task<int> SaveChangesAsync();
     }
