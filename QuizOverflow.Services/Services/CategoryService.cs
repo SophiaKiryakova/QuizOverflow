@@ -1,5 +1,7 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using AutoMapper;
+using Microsoft.EntityFrameworkCore;
 using QuizOverflow.Data.Contracts;
+using QuizOverflow.DTO;
 using QuizOverflow.Models;
 
 namespace QuizOverflow.Services.Services
@@ -18,9 +20,9 @@ namespace QuizOverflow.Services.Services
         public async Task<List<CategoryDto>> GetCategories()
         {
             var categories = await _unitOfWork.CategoryRepository.Get().ToListAsync();
-            var categoriesDto = _mapper.Map<List<Category>, List<CategoryDto>>(categories);
+            var categoryDtos = _mapper.Map<List<Category>, List<CategoryDto>>(categories);
 
-            return categoriesDto;
+            return categoryDtos;
         }
     }
 }
