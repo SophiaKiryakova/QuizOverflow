@@ -23,7 +23,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{594C88F4
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UnitTests", "UnitTests", "{7F1B091C-CF6E-4437-929C-C0BD0ABDAE2E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuizOverflow.BusinessLayer.Tests", "QuizOverflow.BusinessLayer.Tests\QuizOverflow.BusinessLayer.Tests.csproj", "{5C4D3FFE-0F38-4AAE-BCA3-0DA6A390CDC0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QuizOverflow.BusinessLayer.Tests", "QuizOverflow.BusinessLayer.Tests\QuizOverflow.BusinessLayer.Tests.csproj", "{5C4D3FFE-0F38-4AAE-BCA3-0DA6A390CDC0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuizOverflow.API", "QuizOverflow.API\QuizOverflow.API.csproj", "{7A20F12F-15AD-44BA-9EE4-88272AF172FF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -55,6 +57,10 @@ Global
 		{5C4D3FFE-0F38-4AAE-BCA3-0DA6A390CDC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5C4D3FFE-0F38-4AAE-BCA3-0DA6A390CDC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5C4D3FFE-0F38-4AAE-BCA3-0DA6A390CDC0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A20F12F-15AD-44BA-9EE4-88272AF172FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A20F12F-15AD-44BA-9EE4-88272AF172FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A20F12F-15AD-44BA-9EE4-88272AF172FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A20F12F-15AD-44BA-9EE4-88272AF172FF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -67,6 +73,7 @@ Global
 		{B07FE18F-D4E0-44E8-8A97-1CA320B6026B} = {EC6626A5-828D-440B-A353-D7A60EB3889D}
 		{7F1B091C-CF6E-4437-929C-C0BD0ABDAE2E} = {594C88F4-D0C6-481C-9378-8D48B9528802}
 		{5C4D3FFE-0F38-4AAE-BCA3-0DA6A390CDC0} = {7F1B091C-CF6E-4437-929C-C0BD0ABDAE2E}
+		{7A20F12F-15AD-44BA-9EE4-88272AF172FF} = {D9FEFA87-A26C-4160-9AA8-F42FEA2B1FD0}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B20FA21C-14D8-405D-A1AA-D726AF50095F}

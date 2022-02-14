@@ -6,7 +6,7 @@ using QuizOverflow.Models;
 
 namespace QuizOverflow.Services.Services
 {
-    class CategoryService : ICategoryService
+    public class CategoryService : ICategoryService
     {
         private readonly IUnitOfWork _unitOfWork;
         private readonly IMapper _mapper;
