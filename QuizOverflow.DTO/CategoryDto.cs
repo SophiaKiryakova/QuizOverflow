@@ -1,7 +1,8 @@
 ﻿namespace QuizOverflow.DTO
 {
-    public class CategoryDto : DtoBase
+    public class CategoryDto
     {
+        public int Id { get; set; }
         public string? Name { get; set; }
     }
 }
